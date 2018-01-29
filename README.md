@@ -10,8 +10,9 @@ less time complexity.
 	
 	
 # Testing:
-Tested code with different test cases for the rules provided in the description. Have checked most of the edge cases like start/end ip and
-port in a particular range. Have also checked code for all ips and all port case as that is handled seperately in the code.
+Tested code with different test cases for the rules provided in the problem description. Have checked most of the edge cases like 
+start/end ip and port in a particular range. Have also checked code for all ips and all port case as that is handled seperately in the
+code.
 
 # Refinement and Optimizations:
 I would have tried using different data structure to reduce on space complexity by adjusting the tadeoff between space and time
