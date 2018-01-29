@@ -20,7 +20,7 @@ public class Firewall {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try {
-			//Please modify the path for csv input file.
+			//Please modify the path to your csv input file.
 			Firewall firewall = new Firewall("C:\\Users\\dell\\eclipse-workspace\\FirewallRules\\src\\Firewall_Rules.csv");
 			//Few testcases
 			System.out.println(firewall.accessPacket("inbound", "tcp", 80, "192.168.1.2"));
