@@ -2,10 +2,14 @@
 
 
 # Implementation Details:
-	As firewall rules are changed often and used always during transmitting or receiving all the network packets it is important to 
+	As firewall rules are changed often and used always during transmitting or receiving all the network packets it is important to
+	
 	have O(1) time complexity for checking if the packet is allowed by the existing firewall rules. Therefore, a hash is created for
+	
 	storing all the firewall rules to check if a network packet having particular ip address, port, protocol and direction is be
+	
 	allowed or blocked. All port and all ips case is handled separately to save on space. This solution has more space complexity but
+	
 	less time complexity.
 	
 	
