@@ -19,7 +19,3 @@ I would have tried using different data structure to reduce on space complexity 
 complexity. Using a tree like data structure would have reduced space but hampered time complexity. Also would have handled ranged
 ips/ports effectively if more time was offered. Actually, this decision is based on the input i.e if more input are direct ips/port or
 ranges and what we can compromise on in terms of complexity i.e space or time.
-	
-# Team interests:
-1. Platform Team.
-2. Data Team.
